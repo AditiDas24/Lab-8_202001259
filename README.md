@@ -128,5 +128,5 @@ public class BoaTest {
     }
 }
 ```
-This new test case checks that the lengthInInches() method returns the expected value when called on each of the Boa objects created in the setUp() method. It uses the assertEquals() method to compare the expected value to the actual value returned by the lengthInInches() method. The @Test annotation indicates that this is a test method that should be run by JUnit.
+This test case ensures that the lengthInInches() method of the Boa class returns the expected value for each of the Boa objects initialized in the setUp() method. The assertEquals() method is used to compare the expected value with the actual value returned by the lengthInInches() method. The @Test annotation signifies that this method is a test that JUnit should execute.
 </br>
